@@ -14,5 +14,8 @@
 <li>How to execute another program with the execve system call</li>
 <li>How to suspend the execution of a process until one of its children terminates</li>
 <li>EOF implementation / end of file </li>
+
+<h3>Authors</h3>
+
 <li> Andres Henderson - <a href="https://github.com/andresovichh">andresovichh</a></li>
 <li> Oscar Bedat - <a href="https://github.com/Ouyei">Ouyei</a></li>
