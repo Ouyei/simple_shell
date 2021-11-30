@@ -1,0 +1,41 @@
+.\" Manpage for simple_shell
+.TH MAN_SIMPLE_SHELL "11/26/2021" "1.0" "simple_shell interpreter command line manual"
+
+.SH NAME
+
+simple_shell
+
+.SH SYNOPSIS
+.IR - [COMMAND] [ARGUMENT] [FILE].
+
+.SH DESCRIPTION
+ .B Simple Shell
+ - The Shell is a command line interpreter of linux.
+
+.SH RETURN VALUE
+
+If everything was successful our return 0 program.
+
+.SH OPTIONS
+.B [^C]
+- When you type Ctrl + c this symbol is printed
+.B [^D]
+- When you type Ctrl + d this make that exit successful our program
+.B [exit]
+- When you type "exit" this make exits the shell.
+
+.SH ENVIROMENT
+- When you type "env" it search aumatically in the PATH and set it
+
+.SH EXAMPLES
+.B $ls
+
+
+.SH AUTHORS
+
+.NM
+
+.PP
+Oscar Bedat - https://github.com/Ouyei
+.PP
+Andres Henderson - https://github.com/andresovichh
