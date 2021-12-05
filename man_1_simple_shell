@@ -1,41 +1,53 @@
-.\" Manpage for simple_shell
-.TH MAN_SIMPLE_SHELL "11/26/2021" "1.0" "simple_shell interpreter command line manual"
+.TH man 1 "DEC 08 2021" "1.0" "Holberton Simple Shell Project"
 
 .SH NAME
-
-simple_shell
+    hsh - Holberton Simple Shell: command line interpreter
 
 .SH SYNOPSIS
-.IR - [COMMAND] [ARGUMENT] [FILE].
+hsh [filename]
+
+.SH COPYRIGHT
+    Public Domain, no copyright protection
 
 .SH DESCRIPTION
- .B Simple Shell
- - The Shell is a command line interpreter of linux.
+.B hsh
+is a basic imitation of a command line interpreter that reads and implements basic commands from user input as a shell would.
+.PP
+.B hsh
+ is compiled on Ubuntu 14.04 LTS with gcc 4.8.4 (C90). It is built to run in both interactive and noninteractive mode.
+.PP
+.SH USER INPUT
+Once a user inputs a command and hits enter, the shell performs the following actions:
 
-.SH RETURN VALUE
+1. Splits the command into an array of words.
 
-If everything was successful our return 0 program.
+2. Looks for the command.
 
-.SH OPTIONS
-.B [^C]
-- When you type Ctrl + c this symbol is printed
-.B [^D]
-- When you type Ctrl + d this make that exit successful our program
-.B [exit]
-- When you type "exit" this make exits the shell.
+3. Executes the command.
+.PP
+.SH SEARCH FOR COMMAND
+When locating a command, the shell looks for a built-in command by that name.
+If a built-in command is not found, the shell searches for the command in the PATH.
+.PP
+.SH EXECUTE COMMAND
+Commands are executed in a child process of the main process.
+.PP
+.SH BUILTINS
+.IP env
+Prints out all environment variables
+.IP exit
+Exits process and frees memory allocated.
 
-.SH ENVIROMENT
-- When you type "env" it search aumatically in the PATH and set it
-
-.SH EXAMPLES
-.B $ls
-
+.SH BUGS
+No known bugs until now.
 
 .SH AUTHORS
-
-.NM
-
-.PP
-Oscar Bedat - https://github.com/Ouyei
 .PP
 Andres Henderson - https://github.com/andresovichh
+.PP
+Oscar Bedat - https://github.com/Ouyei
+
+.PP
+.SH SEE ALSO
+.BR man
+.BR sh
