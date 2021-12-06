@@ -1,6 +1,6 @@
 ![image](img/simple_shell_header.png)
 <h1>Simple Shell</h1>
-Release date November 8, 2021
+Release date December 8, 2021
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Ouyei/simple_shell)
 ![Lines of code](https://img.shields.io/tokei/lines/github/Ouyei/simple_shell)
@@ -139,7 +139,7 @@ drwxrwxrwx 1 user user  4096 Aug 24 20:03 simple_shell_03
 ##|File|Description
 ---|---|---
 |[AUTHORS](https://github.com/Ouyei/simple_shell/blob/master/AUTHORS)|Contributors in this repository|
-|[man_1_simpleShell](https://github.com/Ouyei/simple_shell/blob/master/man_1_simple_shell )|Manual page our of Simple Shell|
+|[man_1_simple_shell](https://github.com/Ouyei/simple_shell/blob/master/man_1_simple_shell )|Manual page our of Simple Shell|
 |[README.md](https://github.com/Ouyei/simple_shell/blob/master/README.md)|Information about our repository|
 
 
