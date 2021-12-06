@@ -112,38 +112,36 @@ For compile see [Installation](#installation) section
 $ ./hsh
 $
 $ ls -l
-total 22
--rwxrwxrwx 1 user user   206 Aug 23 21:11 AUTHORS
--rwxrwxrwx 1 user user   479 Aug 25 11:31 b_cd.c
--rwxrwxrwx 1 user user   190 Aug 25 11:31 b_exit.c
--rwxrwxrwx 1 user user   585 Aug 25 11:31 b_help.c
--rwxrwxrwx 1 user user  1131 Aug 25 11:35 hsh_execute.c
--rwxrwxrwx 1 user user   727 Aug 25 11:55 hsh_launch_child.c
--rwxrwxrwx 1 user user   426 Aug 25 11:49 hsh_read_line.c
--rwxrwxrwx 1 user user   711 Aug 25 12:17 hsh_shell.c
--rwxrwxrwx 1 user user  1301 Aug 25 12:04 hsh_tokenize.c
-drwxrwxrwx 1 user user     0 Aug 23 21:11 img
--rwxrwxrwx 1 user user 11357 Aug 23 21:11 LICENSE
--rwxrwxrwx 1 user user  1091 Aug 23 21:11 man_1_simple_shell
--rwxrwxrwx 1 user user  6471 Aug 25 12:44 README.md
--rwxrwxrwx 1 user user   749 Aug 25 11:30 shell.h
-drwxrwxrwx 1 user user  4096 Aug 24 20:03 simple_shell_03
--rwxrwxrwx 1 user user   183 Aug 25 11:30 s_putchar.c
--rwxrwxrwx 1 user user   339 Aug 25 10:04 s_puts.c
--rwxrwxrwx 1 user user 16784 Aug 25 10:56 s_strcat
--rwxrwxrwx 1 user user   628 Aug 25 10:57 s_strcat.c
--rwxrwxrwx 1 user user   325 Aug 25 10:02 s_strcmp.c
--rwxrwxrwx 1 user user   282 Aug 25 10:02 s_strlen.c
--rwxrwxrwx 1 user user   276 Aug 25 12:14 s_word_count.c
+total 56
+-rw-r--r-- 1 root root  238 Dec  6 08:34 AUTHORS
+-rwxr-xr-x 1 root root  393 Dec  6 08:39 generate-authors.sh
+-rw-r--r-- 1 root root 2263 Dec  6 08:39 hsh_execute.c
+-rw-r--r-- 1 root root  263 Dec  6 08:39 hsh_getenv.c
+-rw-r--r-- 1 root root  341 Dec  6 08:39 hsh_getline_command.c
+-rw-r--r-- 1 root root  580 Dec  6 08:39 hsh_get_path.c
+-rw-r--r-- 1 root root 1160 Dec  6 08:39 hsh_shell.c
+-rw-r--r-- 1 root root 1475 Dec  6 08:39 hsh_string_foos.c
+-rw-r--r-- 1 root root  695 Dec  6 08:39 hsh_tokenizer.c
+-rw-r--r-- 1 root root 1066 Dec  6 08:39 hsh_values_path.c
+drwxr-xr-x 2 root root   37 Dec  6 08:34 img
+-rw-r--r-- 1 root root 1461 Dec  6 08:34 man_1_simple_shell
+-rw-r--r-- 1 root root 7134 Dec  6 08:34 README.md
+-rw-r--r-- 1 root root  824 Dec  6 08:39 shell.h
 ```
 ### Files
 
-##|File|Description
+File|Description
 ---|---|---
 |[AUTHORS](https://github.com/Ouyei/simple_shell/blob/master/AUTHORS)|Contributors in this repository|
-|[man_1_simple_shell](https://github.com/Ouyei/simple_shell/blob/master/man_1_simple_shell )|Manual page our of Simple Shell|
 |[README.md](https://github.com/Ouyei/simple_shell/blob/master/README.md)|Information about our repository|
-
+|[hsh_execute](https://github.com/Ouyei/simple_shell/blob/master/hsh_execute.c )|Execute builtins and commands|
+|[hsh_get_path.c](https://github.com/Ouyei/simple_shell/blob/master/hsh_get_path.c)|Get variable PATH|
+|[hsh_getenv.c](https://github.com/Ouyei/simple_shell/blob/master/hsh_getenv.c)|Prints enviroment to stndard output|
+|[hsh_getline_command.c](https://github.com/Ouyei/simple_shell/blob/master/hsh_getline_command.c)|Gets input|
+|[hsh_shell.c](https://github.com/Ouyei/simple_shell/blob/master/hsh_shell.c)|Main arguments functions||[hsh_string_foos.c](https://github.com/Ouyei/simple_shell/blob/master/hsh_string_foos.c)|Function to work and modifie string|
+|[hsh_tokenizer.c](https://github.com/Ouyei/simple_shell/blob/master/hsh_tokenizer.c)|Tokenizes a stirng|
+|[man_1_simple_shell](https://github.com/Ouyei/simple_shell/blob/master/man_1_simple_shell)|Manual page our of Simple Shell|
+|[shell.h](https://github.com/Ouyei/simple_shell/blob/master/shell.h)|Prototypes functions and headers|
 
 ## Flowchart
 
