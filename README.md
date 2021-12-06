@@ -129,8 +129,8 @@ drwxr-xr-x 2 root root   37 Dec  6 08:34 img
 ```
 ### Files
 
-|File|Description| |
-|---|---|---|
+|File|Description|
+|---|---|
 |[AUTHORS](https://github.com/Ouyei/simple_shell/blob/master/AUTHORS)|Contributors in this repository|
 |[README.md](https://github.com/Ouyei/simple_shell/blob/master/README.md)|Information about our repository|
 |[hsh_execute](https://github.com/Ouyei/simple_shell/blob/master/hsh_execute.c )|Execute builtins and commands|
