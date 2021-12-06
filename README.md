@@ -38,7 +38,7 @@ This consists of interpreting orders. It incorporates features such as process c
 
 ### Tasks
 
-* Task 0. README, man, AUTHORS
+* Task 0. README, man_1_simple_shell, AUTHORS
 * Task 1. Betty would be proud
 * Task 2. Simple shell 0.1
 * Task 3. Simple shell 0.2
