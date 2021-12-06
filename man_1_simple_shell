@@ -33,10 +33,12 @@ If a built-in command is not found, the shell searches for the command in the PA
 Commands are executed in a child process of the main process.
 .PP
 .SH BUILTINS
-.IP env
-Prints out all environment variables
+.IP help
+Call help, display shell help
 .IP exit
 Exits process and frees memory allocated.
+.IP cd
+Change directories
 
 .SH EXAMPLES
 Below an example of interactive mode:
