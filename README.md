@@ -4,7 +4,9 @@ Release date December 8, 2021
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Ouyei/simple_shell)
 ![Lines of code](https://img.shields.io/tokei/lines/github/Ouyei/simple_shell)
-
+![Commit activity](https://img.shields.io/tokei/commit-activity/github/Ouyei/simple_shell)
+![Contributors](https://img.shields.io/tokei/contributors/github/Ouyei/simple_shell)
+![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg/github/Ouyei/simple_shell)
 
 ## Table of Contents
 * [Introduction](#Introduction)
