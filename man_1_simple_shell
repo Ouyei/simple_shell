@@ -38,6 +38,27 @@ Prints out all environment variables
 .IP exit
 Exits process and frees memory allocated.
 
+.SH EXAMPLES
+Below an example of interactive mode:
+
+.RS +4
+$ ./hsh
+.RE
+.RS +4
+($) /bin/ls
+.RE
+.RS +4
+hsh main.c shell.c
+.RE
+.RS +4
+($)
+.RE
+.RS +4
+($) exit
+.RE
+.RS +4
+$
+
 .SH BUGS
 No known bugs until now.
 
