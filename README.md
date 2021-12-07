@@ -22,8 +22,6 @@ Release date December 8, 2021
     * Testing
     * Files
     * Flowchart
-* [Extra Information](#Extra-Information)
-    * Resources
 * [Authors](#Authors)
 
 ## Introduction
