@@ -2,11 +2,21 @@
 <h1>Simple Shell</h1>
 Release date December 8, 2021
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Ouyei/simple_shell)
-![Lines of code](https://img.shields.io/tokei/lines/github/Ouyei/simple_shell)
-![Commit activity](https://img.shields.io/github/commit-activity/y/Ouyei/simple_shell)
-![Contributors](https://img.shields.io/github/contributors/Ouyei/simple_shell)
-![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen)
+</p>
+          </a>
+          <a href="https://github.com/Ouyei/simple_shell/commits/master" target="_blank">
+               <img alt="commit_activity" src="https://img.shields.io/github/commit-activity/y/Ouyei/simple_shell" />
+          </a>
+          <a href="https://github.com/Ouyei/simple_shell/graphs/contributors" target="_blank">
+               <img alt="contributors" src="https://img.shields.io/github/contributors/Ouyei/simple_shell" />
+          </a>
+          <a href="https://github.com/Ouyei/simple_shell/blob/master/hsh_shell.c"target="_blank">
+               <img alt="code-size" src="https://img.shields.io/tokei/lines/github/Ouyei/simple_shell" />
+          </a>
+          <a href="https://github.com/Ouyei/simple_shell/blob/master/README.md" target="_blank">
+               <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen" />
+          </a>
+     </p>
 
 ## Table of Contents
 * [Introduction](#Introduction)
