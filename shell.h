@@ -11,6 +11,7 @@
 #include <errno.h>
 
 
+int lsh_ctrld(char **args);
 int lsh_cd(char **args);
 int lsh_help(char **args);
 extern char **environ;

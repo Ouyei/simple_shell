@@ -2,13 +2,14 @@
 int lsh_cd(char **args);
 int lsh_help(char **args);
 int lsh_exit(char **args);
+int lsh_ctrld(char **args);
 
 /*
  * List of builtin commands, followed by their corresponding functions.
  */
-char *builtin_str[] = {"cd", "help", "exit"};
+char *builtin_str[] = {"cd", "help", "exit", "^D"};
 
-int (*builtin_func[]) (char **) = {&lsh_cd, &lsh_help, &lsh_exit};
+int (*builtin_func[]) (char **) = {&lsh_cd, &lsh_help, &lsh_exit, &lsh_ctrld};
 
 /**
  * lsh_num_builtins - size
@@ -78,6 +79,18 @@ int lsh_exit(char **args)
 	return (200);
 }
 
+/**
+ * lsh_ctrld - builtin to handle "^D" call
+ * @args: List of args.  Not examined.
+ * Return: Always returns 0, to terminate execution.
+ */
+int lsh_ctrld(char **args)
+{
+        (void)args;
+        printf("should exit\n");
+        free(args);
+        return (200);
+}
 
 
 /**

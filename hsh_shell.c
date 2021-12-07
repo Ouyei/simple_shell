@@ -13,7 +13,13 @@ int main(int ac, char **av, char **env)
 	(void)ac;
 	while (1)/* loop until exit */
 	{
+		errno = 0;
 		line = _getline_command();/** reads user input*/
+		if (line == NULL && errno == 0) /** by checking if errno == 0, we conclude it was EOF*/
+		{
+			printf("CTRLD \n");
+			return (0);
+		}
 		if (line)
 		{
 			pathValue++;
