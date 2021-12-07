@@ -86,12 +86,11 @@ int lsh_exit(char **args)
  */
 int lsh_ctrld(char **args)
 {
-        (void)args;
-        printf("should exit\n");
-        free(args);
-        return (200);
+	(void)args
+	printf("should exit\n");
+	free(args);
+	return (200);
 }
-
 
 /**
  *_fork_fun - foo that create a fork.
