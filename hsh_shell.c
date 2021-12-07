@@ -15,20 +15,14 @@ int main(int ac, char **av, char **env)
 	{
 		errno = 0;
 		line = _getline_command();/** reads user input*/
-		if (line == NULL && errno == 0) /** by checking if errno == 0, we conclude it was EOF*/
-		{
-			printf("CTRLD \n");
+		if (line == NULL && errno == 0)
 			return (0);
-		}
 		if (line)
 		{
 			pathValue++;
 			commands = tokenize(line);/** tokenizes or parse user input*/
 			if (!commands)
-			{
 				free(line);
-				continue;
-			} /**user inputed "exit"*/
 			if (!_strcmp(commands[0], "env"))/**checks if user wrote env"*/
 				_getenv(env);
 			else
