@@ -74,7 +74,6 @@ int lsh_help(char **args)
 int lsh_exit(char **args)
 {
 	(void)args;
-	printf("should exit\n");
 	free(args);
 	return (200);
 }
@@ -87,7 +86,6 @@ int lsh_exit(char **args)
 int lsh_ctrld(char **args)
 {
 	(void)args;
-	printf("should exit\n");
 	free(args);
 	return (200);
 }
