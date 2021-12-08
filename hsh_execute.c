@@ -73,16 +73,10 @@ int lsh_help(char **args)
  */
 int lsh_exit(char **args)
 {
-	if (*args[1] == 98)
-	{
-		free(args);
-		return (200);
-	}
-	if (*args[1] == 0)
-		free(args);
+	(void)args;
+	free(args);
 	return (200);
 }
-
 /**
  * lsh_ctrld - builtin to handle "^D" call
  * @args: List of args.  Not examined.
