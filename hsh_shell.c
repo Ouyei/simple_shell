@@ -32,7 +32,7 @@ int main(int ac, char **av, char **env)
 					if (status == 200)
 					{
 						free(line);
-						return (0);
+						exit(2);
 					}
 				if (is_path == 0)
 					free(commands[0]);
