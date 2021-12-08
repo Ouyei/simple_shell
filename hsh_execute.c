@@ -75,7 +75,7 @@ int lsh_exit(char **args)
 {
 	(void)args;
 	free(args);
-	exit(2);
+	return(200);
 }
 
 /**
