@@ -73,8 +73,13 @@ int lsh_help(char **args)
  */
 int lsh_exit(char **args)
 {
-	(void)args;
-	free(args);
+	if (*args[1] == 98)
+	{
+		free(args);
+		return (200);
+	}
+	if (*args[1] == 0)
+		free(args);
 	return (200);
 }
 
