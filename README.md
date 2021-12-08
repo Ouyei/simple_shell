@@ -152,6 +152,8 @@ drwxr-xr-x 2 root root   37 Dec  6 08:34 img
 
 ## Flowchart
 
+![image](img/simple_shell.png)
+
 ## Authors
 
 <li> Andres Henderson - <a href="https://github.com/andresovichh">andresovichh</a></li>
