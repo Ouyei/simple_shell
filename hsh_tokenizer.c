@@ -27,10 +27,6 @@ char **tokenize(char *lineptr)
 		return (NULL);
 
 	token = strtok(lineptr, " \n\t\r");
-	if (_strcmp(token, "^C") == 0)
-	{
-		;
-	}
 
 	for (i = 0; token != NULL; i++)
 	{
